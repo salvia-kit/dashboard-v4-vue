@@ -247,11 +247,8 @@
       <h2 class="text-2xl font-medium">Export</h2>
       <p class="mt-4">
         As there is no vendor lock-in, if you already have a dashboard, you can
-        just copy the small configuration from
-        <span class="font-medium">tailwind.config.js</span> and paste it into
-        your <span class="font-medium">tailwind.config.js</span> configuration
-        file. then copy the <span class="font-medium">dashboard</span> folder
-        into your project
+        just copy the <span class="font-medium">dashboard</span> folder into
+        your project then :
       </p>
       <div class="mt-8">
         <ul class="pl-6 list-disc mt-4">
