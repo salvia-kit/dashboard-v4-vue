@@ -13,12 +13,7 @@
       z-10
     "
   >
-    <img
-      src="https://res.cloudinary.com/beloved/image/upload/v1623194875/Assets/en_znafdb.png"
-      width="80"
-      height="80"
-      alt="Enoch Ndika"
-    />
+    <img src="/images/2.png" width="80" height="80" alt="Enoch Ndika" />
   </div>
 </template>
 
