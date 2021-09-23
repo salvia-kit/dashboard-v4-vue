@@ -73,35 +73,34 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'ContentBox',
-  props: {
-    item: {
-      type: Object,
-      default: function () {
-        return {
-          style: {
-            background: 'bg-yellow-200',
-            progressbar: 'bg-yellow-700',
-            text: 'text-yellow-600',
-          },
-          info: {
-            date: 'December 10, 2020',
-            title: 'Web Designing',
-            subtitle: 'Prototyping',
-            progress: '90%',
-            timeLeft: '2 Days Left',
-            participants: [
-              {
-                image:
-                  'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80',
-              },
-            ],
-          },
-        };
-      },
+<script setup>
+import { defineProps } from 'vue';
+
+defineProps({
+  item: {
+    type: Object,
+    default: function () {
+      return {
+        style: {
+          background: 'bg-yellow-200',
+          progressbar: 'bg-yellow-700',
+          text: 'text-yellow-600',
+        },
+        info: {
+          date: 'December 10, 2020',
+          title: 'Web Designing',
+          subtitle: 'Prototyping',
+          progress: '90%',
+          timeLeft: '2 Days Left',
+          participants: [
+            {
+              image:
+                'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80',
+            },
+          ],
+        },
+      };
     },
   },
-};
+});
 </script>

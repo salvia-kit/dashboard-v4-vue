@@ -26,7 +26,7 @@
   </ul>
 </template>
 
-<script>
+<script setup>
 import SidenavItem from './Item.vue';
 
 /* ICONS */
@@ -36,17 +36,4 @@ import CreditsIcon from './icons/Credits.vue';
 import SettingsIcon from './icons/Settings.vue';
 import ArchivesIcon from './icons/Archives.vue';
 import DocumentationIcon from './icons/Documentation.vue';
-
-export default {
-  name: 'SidenavItems',
-  components: {
-    HomeIcon,
-    StatusIcon,
-    SidenavItem,
-    CreditsIcon,
-    SettingsIcon,
-    ArchivesIcon,
-    DocumentationIcon,
-  },
-};
 </script>

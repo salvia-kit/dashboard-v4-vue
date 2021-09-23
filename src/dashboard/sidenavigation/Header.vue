@@ -17,8 +17,4 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'SidenavHeader',
-};
-</script>
+<script setup></script>

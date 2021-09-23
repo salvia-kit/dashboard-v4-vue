@@ -15,8 +15,4 @@
   </svg>
 </template>
 
-<script>
-export default {
-  name: 'CreditsIcon',
-};
-</script>
+<script setup></script>

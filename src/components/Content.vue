@@ -69,23 +69,15 @@
   </div>
 </template>
 
-<script>
+<script setup>
+import { defineProps } from 'vue';
 import MessageBoard from '../components/contents/MessageBoard.vue';
 import ContentContainer from '../components/contents/ContentContainer.vue';
 
-export default {
-  name: 'Content',
-
-  components: {
-    MessageBoard,
-    ContentContainer,
+defineProps({
+  title: {
+    type: String,
+    default: '',
   },
-
-  props: {
-    title: {
-      type: String,
-      default: '',
-    },
-  },
-};
+});
 </script>

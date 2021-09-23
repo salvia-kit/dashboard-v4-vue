@@ -15,8 +15,4 @@
   </svg>
 </template>
 
-<script>
-export default {
-  name: 'ArchivesIcon',
-};
-</script>
+<script setup></script>

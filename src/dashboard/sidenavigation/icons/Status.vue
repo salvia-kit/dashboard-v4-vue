@@ -15,8 +15,4 @@
   </svg>
 </template>
 
-<script>
-export default {
-  name: 'StatusIcon',
-};
-</script>
+<script setup></script>

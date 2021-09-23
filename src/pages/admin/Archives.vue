@@ -2,13 +2,6 @@
   <Content title="Archives" />
 </template>
 
-<script>
+<script setup>
 import Content from '../../components/Content.vue';
-
-export default {
-  name: 'ArchivesPage',
-  components: {
-    Content,
-  },
-};
 </script>
